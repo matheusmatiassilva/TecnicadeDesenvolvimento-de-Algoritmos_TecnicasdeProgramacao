@@ -582,3 +582,23 @@ FIM SUBALGORITMO
 
 ---
 
+## 🚀 Como executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/matheusmatiassilva/TecnicaDesenvolvimento-de-Algoritmos_TecnicasdeProgramacao.git
+- Coloque os arquivos na pasta htdocs do XAMPP:
+C:\xampp\htdocs\projeto2
+- Importe o banco de dados .sql no phpMyAdmin
+- Inicie o servidor Apache e MySQL pelo XAMPP
+- Acesse o projeto via navegador:
+http://localhost/projeto2
+
+
+📌 Observações
+Este projeto está em constante evolução conforme avanço no curso. Feedbacks e sugestões são sempre bem-vindos!
+
+Matheus Matias da Silva
+Estudante de Engenharia de Software
+Brasília - DF, Brasil
+

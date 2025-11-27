@@ -6,21 +6,9 @@ Este repositório contém os materiais e códigos desenvolvidos durante a discip
 
 Olá! Meu nome é **Matheus Matias da Silva** e atualmente estou cursando o **2º semestre de Engenharia de Software**. Este projeto faz parte da minha jornada de aprendizado na área de desenvolvimento e lógica de programação.
 
-## 📚 Objetivo do Projeto
+# 🚗 Sistema de Gestão de Concessionária
 
-O objetivo deste repositório é reunir scripts, exercícios e aplicações que envolvem:
-
-- Estruturação de banco de dados
-- Desenvolvimento em PHP
-- Lógica de programação
-- Práticas com MySQL e Workbench
-
-## 🛠️ Tecnologias Utilizadas
-
-- PHP
-- MySQL / MySQL Workbench
-- HTML / CSS / JavaScript
-- Git e GitHub
+Sistema web desenvolvido em **PHP** e **MySQL** para gerenciamento de uma concessionária de veículos, permitindo o cadastro, listagem, edição e exclusão de clientes, funcionários, marcas, modelos e vendas.
 
 # Documentação Complementar da Disciplina
 
@@ -579,6 +567,14 @@ FIM SUBALGORITMO
 3. **Validação**: Validações básicas implementadas nos formulários HTML
 4. **Interface**: Utiliza Bootstrap para criação de interface responsiva
 5. **Segurança**: Para produção, recomenda-se implementar prepared statements e validação de entrada
+
+ ## 🛠️ Tecnologias Utilizadas
+
+- **Backend**: PHP 8.2+
+- **Banco de Dados**: MySQL (MariaDB)
+- **Frontend**: HTML5, CSS3, Bootstrap 5
+- **Servidor**: Apache (XAMPP) ou servidor PHP embutido
+- **IDE**: Qualquer editor de código (VS Code, PHPStorm, etc.)
 
 ---
 ## 🚀 Instalação e Configuração

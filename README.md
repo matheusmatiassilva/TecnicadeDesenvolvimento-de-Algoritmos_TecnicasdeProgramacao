@@ -581,19 +581,37 @@ FIM SUBALGORITMO
 5. **Segurança**: Para produção, recomenda-se implementar prepared statements e validação de entrada
 
 ---
+## 🚀 Instalação e Configuração
 
-## 🚀 Como executar
+### Pré-requisitos
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/matheusmatiassilva/TecnicaDesenvolvimento-de-Algoritmos_TecnicasdeProgramacao.git
-- Coloque os arquivos na pasta htdocs do XAMPP:
-C:\xampp\htdocs\projeto2
-- Importe o banco de dados .sql no phpMyAdmin
-- Inicie o servidor Apache e MySQL pelo XAMPP
-- Acesse o projeto via navegador:
-http://localhost/projeto2
+1. **XAMPP** (ou similar) instalado
+2. **PHP 8.2+** 
+3. **MySQL/MariaDB** rodando
 
+### Passos para Instalação
+
+1. **Clone ou baixe o projeto** para a pasta `htdocs` do XAMPP:
+   ```
+   C:\xampp\htdocs\projeto\
+   ```
+
+2. **Configure o banco de dados**:
+   - Abra o phpMyAdmin: `http://localhost/phpmyadmin`
+   - Importe o arquivo `bancodedados.sql` para criar o banco e as tabelas
+
+3. **Configure a conexão** (se necessário):
+   - Edite o arquivo `config.php` e ajuste as credenciais:
+   ```php
+   define('DB_HOST', '127.0.0.1');
+   define('DB_USER', 'root');
+   define('DB_PASS', ''); // Sua senha do MySQL
+   define('DB_PORT', 3307); // Porta do MySQL
+   define('DB_NAME', 'X9Car');
+   ```
+
+4. **Acesse o sistema**:
+   - Abra no navegador: `http://localhost/projeto/`
 
 📌 Observações
 Este projeto está em constante evolução conforme avanço no curso. Feedbacks e sugestões são sempre bem-vindos!
